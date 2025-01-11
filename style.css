@@ -29,17 +29,45 @@ body {
 .slide-container {
     display: none;
     position: relative;
-    width: 80%;
-    max-width: 600px;
+    width: 400px;
+    height: auto;
     margin: auto;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#prev {
+    left: 10px;
+    background-color: gray;
+}
+
+#next {
+    right: 10px;
+     background-color: gray;
 }
 
 .slide {
     display: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .slide img {
     width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .message {
