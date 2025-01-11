@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Slide de Fotos com Mensagens Amorosas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="styled-button" onclick="showSlides()">❤SURPRESINHA❤</button>
+        <div class="slide-container" id="slideContainer">
+            <div class="slide active">
+                <img src="foto1.jpg" alt="Foto 1">
+                <p class="message">Você é a razão do meu sorriso.</p>
+            </div>
+            <div class="slide">
+                <img src="foto2.jpg" alt="Foto 2">
+                <p class="message">Cada momento com você é especial.</p>
+            </div>
+            <div class="slide">
+                <img src="foto3.jpg" alt="Foto 3">
+                <p class="message">Te amo mais do que palavras podem expressar.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
