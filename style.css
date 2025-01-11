@@ -55,7 +55,7 @@ body {
 
 #next {
     right: 10px;
-     background-color: gray;
+    background-color: gray;
 }
 
 .slide {
@@ -78,4 +78,27 @@ body {
 
 .active {
     display: block;
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 600px) {
+    .slide-container {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .styled-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .nav-button {
+        padding: 5px;
+    }
+
+    .message {
+        font-size: 1em;
+        margin-top: 10px;
+    }
 }
